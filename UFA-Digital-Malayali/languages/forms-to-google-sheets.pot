@@ -1,0 +1,1159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Forms to Google Sheets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Forms to Google Sheets 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-06 12:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/admin/class-ftgs-admin.php:25
+#: includes/admin/class-ftgs-admin.php:107
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:34
+#: includes/admin/class-ftgs-admin.php:114 includes/class-ftgs-privacy.php:86
+msgid "Forms to Google Sheets"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:35
+msgid "Forms → Sheets"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:57
+msgid "Copied!"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:58
+msgid "Sending…"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:59
+msgid "Request failed"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:60
+msgid "Delete this connection? Stored submissions are kept."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:61
+msgid ""
+"Delete the selected submissions from WordPress? Rows already in Google "
+"Sheets are not affected."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:62
+#: includes/admin/class-ftgs-admin.php:244
+msgid "All forms"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:63
+msgid "Sync finished."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:64
+msgid "Syncing…"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:65
+msgid "Sync stopped:"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:66
+msgid "Click \"Start sync\" again to continue where it stopped."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:67
+msgid "Save your changes before syncing."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:79
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:104
+msgid "Connections"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:105
+msgid "Submissions"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:106
+msgid "Activity Log"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:108
+msgid "Setup Guide"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:116
+msgid "Add Connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:152
+msgid "Connection saved."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:153
+msgid "Connection deleted."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:154
+msgid "Connection updated."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:155
+msgid "Connection duplicated. It is paused until you activate it."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:156
+msgid "Log cleared."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:157
+msgid "Settings saved."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:158
+msgid ""
+"Saved, but the webhook URL is missing or not a valid https:// URL. Nothing "
+"will be sent until you fix it."
+msgstr ""
+
+#. translators: %d: number
+#: includes/admin/class-ftgs-admin.php:160
+#, php-format
+msgid "%d connection(s) imported."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:161
+msgid "That file is not a valid Forms to Google Sheets export."
+msgstr ""
+
+#. translators: %d: number
+#: includes/admin/class-ftgs-admin.php:163
+#, php-format
+msgid "Resent %d submission(s). Check the status column for the result."
+msgstr ""
+
+#. translators: %d: number
+#: includes/admin/class-ftgs-admin.php:165
+#, php-format
+msgid "%d submission(s) deleted."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:166
+msgid "Nothing selected."
+msgstr ""
+
+#. translators: %d: number
+#: includes/admin/class-ftgs-admin.php:175
+#, php-format
+msgid "%d submission could not be sent to Google Sheets."
+msgid_plural "%d submissions could not be sent to Google Sheets."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-ftgs-admin.php:177
+msgid "Review and retry"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:181
+msgid ""
+"WP-Cron is disabled on this site (DISABLE_WP_CRON). Make sure a real cron "
+"job calls wp-cron.php, otherwise retries will not run."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:187
+#: includes/admin/class-ftgs-admin.php:485
+msgid "Sent"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:188
+#: includes/admin/class-ftgs-admin.php:484
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:189
+#: includes/admin/class-ftgs-admin.php:483
+msgid "Failed"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:190
+#: includes/admin/class-ftgs-admin.php:486
+msgid "Skipped"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:191
+#: includes/admin/class-ftgs-admin.php:487
+msgid "Stored only"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:192
+msgid "Success"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:193
+msgid "Retry"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:194
+msgid "Error"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:195
+msgid "Info"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:203
+#: includes/admin/class-ftgs-admin.php:503
+msgid "All form plugins"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:222
+msgid "Form plugins:"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:225
+msgid "No connections yet"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:226
+msgid "A connection sends the forms you choose to one tab of a Google Sheet."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:227
+msgid "Add your first connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:228
+msgid "Read the setup guide"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:233
+#: includes/admin/class-ftgs-admin.php:305
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:233
+#: includes/admin/class-ftgs-admin.php:313
+#: includes/class-ftgs-connections.php:16
+msgid "Form plugin"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:233
+#: includes/admin/class-ftgs-admin.php:326
+msgid "Forms"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:233
+msgid "Sheet tab"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:233
+#: includes/admin/class-ftgs-admin.php:309
+#: includes/admin/class-ftgs-admin.php:673
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:247
+msgid "(plugin not active)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:250
+msgid "(no webhook URL)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:254
+msgid "conditions"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:262
+msgid "Paused"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:264
+msgid "Send test"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:265
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:266
+msgid "Pause"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:266
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:267
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:268
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:295
+msgid "All connections"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:302
+msgid "New connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:302
+msgid "Edit connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:306
+msgid "Contact page leads"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:310
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:316
+msgid "All form plugins (every form on the site)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:319
+msgid "not active"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:329
+msgid ""
+"Use * for all forms, or comma-separated form IDs. Click forms below to pick "
+"them."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:335
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:338
+msgid ""
+"The Apps Script Web app URL ending in /exec (see Setup Guide). Any webhook "
+"that accepts JSON also works."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:342
+msgid "Secret"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:344
+msgid "8–64 letters, numbers, - or _"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:345
+msgid "Regenerate"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:346
+msgid ""
+"Must match SECRETS in the Apps Script. If you change it, re-copy the script "
+"and deploy a new version."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:350
+msgid "Sheet tab name"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:352
+msgid "Created automatically if it does not exist."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:355
+msgid "Extra columns"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:360
+msgid ""
+"An \"Entry ID\" column is always added first. It prevents duplicate rows."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:366
+msgid "Advanced: conditions, column names, order and exclusions"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:369
+msgid "Only send when"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:372
+msgid "ALL rules match"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:373
+msgid "ANY rule matches"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:376
+msgid ""
+"One rule per line: <code>field operator value</code>. Field = key or label. "
+"Operators: <code>==</code> <code>!=</code> <code>contains</code> <code>not "
+"contains</code> <code>starts with</code> <code>ends with</code> <code>&gt;</"
+"code> <code>&lt;</code> <code>&gt;=</code> <code>&lt;=</code> <code>is "
+"empty</code> <code>is not empty</code>. Leave empty to send everything."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:380
+msgid "Rename columns"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:382
+msgid "One per line: field key or label => column header."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:385
+msgid "Column order"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:387
+msgid ""
+"Column headers (after renaming) to put first, one per line. Applies when the "
+"columns are created; existing columns in the sheet keep their position."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:390
+msgid "Exclude fields"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:392
+msgid "Comma-separated field keys or labels to leave out."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:396
+msgid "Save connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:402
+msgid "Sync existing entries"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:403
+msgid ""
+"Send entries that were submitted before this connection existed, or that "
+"were missed. Entries already in the sheet are skipped, so it is safe to run "
+"more than once."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:405
+msgid "Source"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:412
+msgid "From"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:413
+msgid "To"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:419
+msgid ""
+"With \"All form plugins\", only submissions saved by this plugin can be "
+"synced. Create a connection for a single form plugin to import its older "
+"entries."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:421
+msgid "This form plugin is not active."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:425
+msgid ""
+"This form plugin does not store entries; only submissions saved by this "
+"plugin can be synced."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:431
+msgid "Start sync"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:432
+msgid "Stop"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:441
+msgid "Apps Script for this connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:443
+msgid "In your Google Sheet open <strong>Extensions → Apps Script</strong>."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:444
+msgid ""
+"Replace all code in <code>Code.gs</code> with this script and click "
+"<strong>Save</strong>."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:445
+msgid ""
+"<strong>Deploy → New deployment → Web app</strong>. Execute as: <em>Me</em>. "
+"Who has access: <em>Anyone</em>."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:446
+msgid ""
+"Paste the <code>/exec</code> URL into <strong>Webhook URL</strong> and save."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:448
+msgid "Copy script"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:452
+msgid "Send test row"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:455
+msgid "Save the connection to send a test row."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:482
+msgid "All"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:508
+msgid "Search submissions…"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:509
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:516
+msgid "Resend selected"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:517
+msgid "Delete selected"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:521
+msgid "Retry all failed"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:523
+msgid "Export CSV"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:530
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:531
+#: includes/admin/class-ftgs-admin.php:673 includes/class-ftgs-privacy.php:56
+msgid "Form"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:532
+msgid "Data"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:533
+#: includes/admin/class-ftgs-admin.php:624
+msgid "Delivery"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:537
+msgid "No submissions found."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:559
+#: includes/admin/class-ftgs-admin.php:631
+msgid "(deleted connection)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:569
+msgid ""
+"Every submission is saved here first and then sent in the background. Failed "
+"sends are retried automatically for about 7 hours (1 min, 5 min, 15 min, 1 "
+"h, 6 h)."
+msgstr ""
+
+#. translators: %s: number
+#: includes/admin/class-ftgs-admin.php:575
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-ftgs-admin.php:593
+msgid "All submissions"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:595
+msgid "Submission not found."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:613
+msgid "Details"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:615
+msgid "Entry ID:"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:616
+msgid "Form plugin:"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:617
+msgid "Submitted:"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:618
+msgid "Page"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:618
+msgid "IP"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:618
+msgid "User"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:626
+msgid "No connection matched this form when it was submitted."
+msgstr ""
+
+#. translators: %d: attempts
+#: includes/admin/class-ftgs-admin.php:635
+#, php-format
+msgid "Attempts: %d"
+msgstr ""
+
+#. translators: %s: time
+#: includes/admin/class-ftgs-admin.php:641
+#, php-format
+msgid "next try %s"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:650
+msgid "Resend now"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:651
+msgid ""
+"Resend goes to every active connection that matches this form. Rows already "
+"in the sheet are skipped."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:664
+msgid "The last 300 events."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:666
+msgid "Clear log"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:670
+msgid "Nothing logged yet."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:673
+msgid "Time"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:673
+msgid "Connection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:673
+msgid "Message"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:697
+msgid "Sending"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:700
+msgid "Send mode"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:702
+msgid "Background (recommended) – the visitor does not wait for Google"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:703
+msgid "Immediately – send before the form shows its success message"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:707
+msgid "Failure alerts"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:709
+msgid ""
+"Email me when a submission cannot be delivered after all retries (max. one "
+"email per hour)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:714
+msgid "Contact Form 7 uploads"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:715
+msgid ""
+"Keep uploaded files and put their links in the sheet (stored in uploads/ftgs-"
+"uploads with unguessable folder names)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:718
+msgid "Storage"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:721
+msgid "Backup"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:722
+msgid ""
+"Also save submissions of forms that have no connection yet (so they can be "
+"synced later)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:725
+msgid "Keep submissions for"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:726
+msgid "days (0 = forever). Pending submissions are never deleted."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:729
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:730
+msgid ""
+"Delete all connections, settings and stored submissions when the plugin is "
+"deleted"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:733
+msgid "Plain HTML forms – spam protection"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:736
+msgid "Minimum fill time"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:737
+msgid "seconds (faster submissions are ignored as bots)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:740
+msgid "Rate limit"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:741
+msgid "submissions per minute per visitor"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:742
+msgid ""
+"Optional honeypot: add <code>&lt;input type=\"text\" name=\"ftgs_hp\" "
+"style=\"display:none\" tabindex=\"-1\" autocomplete=\"off\"&gt;</code> to "
+"your form. Requests from other websites are always rejected."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:745
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:749
+msgid "Export / import connections"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:750
+msgid ""
+"Move your connections between sites (e.g. staging → live). The export "
+"contains your webhook URLs and secrets – keep the file private."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:751
+msgid "Download export (.json)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:756
+msgid "Replace existing connections"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:757
+msgid "Import"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:766
+msgid "Connect a Google Sheet in 5 steps"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:768
+msgid ""
+"Create (or open) a Google Sheet and go to <strong>Extensions → Apps Script</"
+"strong>."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:769
+msgid ""
+"Here in WordPress click <strong>Connections → Add Connection</strong>, "
+"choose the form plugin and forms, then click <strong>Copy script</strong> on "
+"the right (it already contains your secret). In Apps Script replace "
+"everything in <code>Code.gs</code> with it and click <strong>Save</strong>."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:770
+msgid ""
+"Click <strong>Deploy → New deployment</strong>, choose type <strong>Web app</"
+"strong>, set <em>Execute as: Me</em> and <em>Who has access: Anyone</em>, "
+"then <strong>Deploy</strong> and authorize the script."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:771
+msgid ""
+"Copy the <strong>Web app URL</strong> (ends in <code>/exec</code>), paste it "
+"into <strong>Webhook URL</strong> and save."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:772
+msgid ""
+"Click <strong>Send test row</strong>. Then use <strong>Sync existing "
+"entries</strong> to bring in older entries."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:774
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:777
+msgid "HTTP 403 / \"You need access\""
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:777
+msgid ""
+"The deployment is not public. Deploy → Manage deployments → Edit → Who has "
+"access: Anyone → Version: New version → Deploy. Use the /exec URL, not /dev. "
+"On Google Workspace accounts your admin may need to allow \"Anyone\" – or "
+"use a personal Gmail account for the script."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:778
+msgid "Invalid secret"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:778
+msgid ""
+"The deployed script has a different secret. Copy the script again from the "
+"connection screen, save, then deploy a New version (just saving is not "
+"enough)."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:779
+msgid "Old Apps Script"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:779
+msgid ""
+"If you used version 1 of this plugin, copy the new script and deploy a new "
+"version to enable batches (sync) and duplicate protection."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:780
+msgid "Rows stay \"Pending\""
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:780
+msgid ""
+"Retries run via WP-Cron, which needs site traffic. If DISABLE_WP_CRON is "
+"set, add a server cron job for wp-cron.php."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:783
+msgid "Good to know"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:785
+msgid ""
+"Headers are created automatically from field labels. New fields become new "
+"columns; you can reorder columns in the sheet freely."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:786
+msgid ""
+"Keep the \"Entry ID\" column: it is how duplicates are detected. You can "
+"hide it in Sheets."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:787
+msgid ""
+"Several connections can share one sheet: use different tab names and list "
+"every secret in the SECRETS array."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:788
+msgid ""
+"Plain HTML forms: add data-ftgs-form=\"your-name\" to the form tag and "
+"create a connection with \"Any HTML form\"."
+msgstr ""
+
+#. translators: %s: connection name
+#: includes/admin/class-ftgs-admin.php:860
+#, php-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:1043
+msgid "Save a webhook URL first."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:1049
+msgid "Test submission"
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:1053
+msgid "This is a test row from Forms to Google Sheets."
+msgstr ""
+
+#: includes/admin/class-ftgs-admin.php:1061
+msgid "Test:"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/class-ftgs-alerts.php:32
+#, php-format
+msgid "[%s] A form submission could not be sent to Google Sheets"
+msgstr ""
+
+#: includes/class-ftgs-alerts.php:35
+msgid ""
+"Forms to Google Sheets could not deliver a submission after several attempts."
+msgstr ""
+
+#: includes/class-ftgs-alerts.php:37
+msgid "Connection:"
+msgstr ""
+
+#: includes/class-ftgs-alerts.php:38
+msgid "Form:"
+msgstr ""
+
+#: includes/class-ftgs-alerts.php:39
+msgid "Error:"
+msgstr ""
+
+#: includes/class-ftgs-alerts.php:41
+msgid ""
+"The submission is saved in WordPress. Fix the problem, then click \"Retry "
+"all failed\" here:"
+msgstr ""
+
+#. translators: %d: number
+#: includes/class-ftgs-alerts.php:45
+#, php-format
+msgid "%d more submission(s) failed since the last alert."
+msgstr ""
+
+#: includes/class-ftgs-client.php:45
+msgid ""
+"Your Apps Script is the old version and cannot receive batches. Copy the new "
+"script from the connection screen and deploy a new version."
+msgstr ""
+
+#: includes/class-ftgs-client.php:47
+msgid "(Old Apps Script: update it to enable duplicate protection.)"
+msgstr ""
+
+#. translators: %s: last 4 characters of the secret
+#: includes/class-ftgs-client.php:53
+#, php-format
+msgid ""
+"– the deployed Apps Script does not contain this connection's secret (ends "
+"in \"…%s\"). Re-copy the script from the connection screen, save it, then "
+"Deploy > Manage deployments > Edit > Version: New version > Deploy."
+msgstr ""
+
+#: includes/class-ftgs-client.php:74
+msgid "The webhook URL is not valid."
+msgstr ""
+
+#: includes/class-ftgs-client.php:105
+msgid "Delivered (response could not be read)."
+msgstr ""
+
+#: includes/class-ftgs-client.php:125
+msgid ""
+"Google refused access to the Apps Script. In Apps Script open Deploy > "
+"Manage deployments > Edit, set \"Who has access\" to \"Anyone\" (not "
+"\"Anyone with Google account\"), deploy a new version, and use the URL "
+"ending in /exec (not /dev)."
+msgstr ""
+
+#: includes/class-ftgs-client.php:129
+msgid ""
+"Google returned a sign-in page instead of running the script. Set \"Who has "
+"access\" to \"Anyone\" and deploy a new version."
+msgstr ""
+
+#: includes/class-ftgs-client.php:133
+msgid ""
+"Webhook URL not found. Check you copied the full Web app URL ending in /exec."
+msgstr ""
+
+#: includes/class-ftgs-client.php:137
+msgid ""
+"The deployed script has no doPost function. Paste the plugin's script and "
+"deploy a new version."
+msgstr ""
+
+#: includes/class-ftgs-client.php:142
+msgid "Apps Script did not return the expected answer:"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:14
+msgid "Timestamp"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:15
+msgid "Form name"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:17
+msgid "Page URL"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:18
+msgid "IP address"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:19
+msgid "User agent"
+msgstr ""
+
+#: includes/class-ftgs-connections.php:20
+msgid "Logged-in WP user"
+msgstr ""
+
+#: includes/class-ftgs-install.php:49
+msgid "Every 5 minutes (Forms to Google Sheets)"
+msgstr ""
+
+#: includes/class-ftgs-privacy.php:19 includes/class-ftgs-privacy.php:27
+msgid "Form submissions (Forms to Google Sheets)"
+msgstr ""
+
+#: includes/class-ftgs-privacy.php:57
+msgid "Submitted"
+msgstr ""
+
+#: includes/class-ftgs-privacy.php:64
+msgid "Form submissions"
+msgstr ""
+
+#: includes/class-ftgs-privacy.php:78
+msgid ""
+"Form submissions were deleted from WordPress. Rows already sent to Google "
+"Sheets must be deleted in the sheet."
+msgstr ""
+
+#: includes/class-ftgs-privacy.php:87
+msgid ""
+"When you submit a form on this site, the information you enter is stored on "
+"this website and sent to a Google Sheet operated by the site owner (Google "
+"LLC processes this data). Depending on settings, the page address, your IP "
+"address and browser user agent may be included."
+msgstr ""
+
+#: includes/class-ftgs-queue.php:47 includes/class-ftgs-queue.php:293
+msgid "Conditions not met"
+msgstr ""
+
+#: includes/class-ftgs-queue.php:219
+msgid "Connection was deleted"
+msgstr ""
+
+#: includes/class-ftgs-queue.php:223
+msgid "Connection is paused"
+msgstr ""
+
+#: includes/class-ftgs-queue.php:238
+msgid "Already in sheet (duplicate skipped)"
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-ftgs-sync.php:24
+#, php-format
+msgid "Entries saved by %s"
+msgstr ""
+
+#: includes/class-ftgs-sync.php:26
+msgid "Submissions saved by this plugin"
+msgstr ""
+
+#: includes/class-ftgs-sync.php:38
+msgid "Save the connection with a webhook URL first."
+msgstr ""
+
+#: includes/class-ftgs-sync.php:76
+msgid "This form plugin has no stored entries to sync."
+msgstr ""
+
+#: includes/class-ftgs-sync.php:151
+msgid "Sent by sync"
+msgstr ""
+
+#: includes/integrations/class-ftgs-bricks.php:23
+msgid ""
+"In the Bricks form element, add \"Custom\" to \"Actions after successful "
+"form submit\". Forms are identified by the element ID."
+msgstr ""
+
+#: includes/integrations/class-ftgs-cf7.php:24
+msgid ""
+"Sync of old entries needs the free Flamingo or CFDB7 plugin (Contact Form 7 "
+"itself stores nothing)."
+msgstr ""
+
+#: includes/integrations/class-ftgs-divi.php:23
+msgid ""
+"Divi forms are identified by the module's \"Unique ID\" (Contact Form "
+"settings → Advanced → Unique ID), or \"page-ID#number\". Use * for all."
+msgstr ""
+
+#: includes/integrations/class-ftgs-elementor.php:25
+msgid ""
+"Forms are identified by the form widget's element ID. You can also type the "
+"widget's \"Form Name\"."
+msgstr ""
+
+#: includes/integrations/class-ftgs-html.php:28
+msgid ""
+"Add data-ftgs-form=\"contact\" to your <form> tag and enter contact here. "
+"Give a field a nicer column name with data-label=\"…\", skip one with data-"
+"ftgs-ignore."
+msgstr ""
+
+#: includes/integrations/class-ftgs-wpforms.php:23
+msgid ""
+"Sync of old entries needs WPForms Pro (WPForms Lite does not store entries)."
+msgstr ""
